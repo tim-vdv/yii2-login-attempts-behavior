@@ -9,7 +9,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 
 Either run
 ```sh
-composer require ethercreative/yii2-login-attempts-behavior
+composer require tim-vdv/yii2-login-attempts-behavior
 ```
 or add
 ```json
