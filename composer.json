@@ -1,5 +1,5 @@
 {
-    "name": "ethercreative/yii2-login-attempts-behavior",
+    "name": "tim-vdv/yii2-login-attempts-behavior",
     "description": "Disable login after multiple failures.",
     "keywords": ["yii2", "behavior"],
     "require": {
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "ethercreative\\loginattempts\\": "src"
+            "tim-vdv\\loginattempts\\": "src"
         }
     }
 }
