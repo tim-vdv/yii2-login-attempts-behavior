@@ -1,6 +1,6 @@
 <?php
 
-namespace ethercreative\loginattempts;
+namespace timvdv\loginattempts;
 
 class LoginAttempt extends \yii\db\ActiveRecord
 {
