@@ -52,15 +52,15 @@ class LoginAttemptBehavior extends \yii\base\Behavior
         {
             if ($this->_attempt->amount >= $this->attempts)
             {
-                $this->owner->addError($this->usernameAttribute, $this->message);
-            //Delete previous registrations in database
-            }else{
-                $attempts = LoginAttempt::find()->where(['key' => $this->key])->all();
-                foreach($attempts as $attempt){
-                    $attempt->delete();
-                }            
+                $this->owner->addError($this->usernameAttribute, $this->message);            
             }
-        }
+        //Delete previous registrations in database    
+        }else{
+             $attempts = LoginAttempt::find()->where(['key' => $this->key])->all();
+             foreach($attempts as $attempt){
+                 $attempt->delete();
+             }            
+         }
     }
 
     public function afterValidate()
