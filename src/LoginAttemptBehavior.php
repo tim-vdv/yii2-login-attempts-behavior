@@ -48,7 +48,7 @@ class LoginAttemptBehavior extends \yii\base\Behavior
 
     public function beforeValidate()
     {
-        if ($this->_attempt = LoginAttempt::find()->where(['key' => $this->key])->andWhere(['>', 'reset_at', date('r')])->one())
+        if ($this->_attempt = LoginAttempt::find()->where(['key' => $this->key])->andWhere(['>', 'reset_at', date('Y-m-d H:i:s')])->one())
         {
             if ($this->_attempt->amount >= $this->attempts)
             {
