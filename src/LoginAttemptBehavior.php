@@ -7,7 +7,7 @@ use yii\base\Model;
 use yii\db\Expression;
 use yii\helpers\Inflector;
 
-use ethercreative\loginattempts\LoginAttempt;
+use timvdv\loginattempts\LoginAttempt;
 
 class LoginAttemptBehavior extends \yii\base\Behavior
 {
