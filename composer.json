@@ -11,6 +11,9 @@
             "email": "matt@ethercreative.co.uk"
         }
     ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
     "autoload": {
         "psr-4": {
             "timvdv\\loginattempts\\": "src"
