@@ -1,6 +1,6 @@
 <?php
 
-namespace ethercreative\loginattempts;
+namespace timvdv\loginattempts;
 
 use Yii;
 use yii\base\Model;
