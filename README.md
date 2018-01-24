@@ -13,7 +13,7 @@ composer require ethercreative/yii2-login-attempts-behavior
 ```
 or add
 ```json
-"ethercreative/yii2-login-attempts-behavior": "*"
+"tim-vdv/yii2-login-attempts-behavior": "*"
 ```
 to the require section of your `composer.json` file.
 
@@ -21,7 +21,7 @@ Usage
 =====
 Run the following migration
 
-    php yii migrate --migrationPath="vendor/ethercreative/yii2-login-attempts-behavior/src/migrations"  --interactive=0
+    php yii migrate --migrationPath="vendor/timvdv/yii2-login-attempts-behavior/src/migrations"  --interactive=0
 
 Add the behavior to your login model.
 
